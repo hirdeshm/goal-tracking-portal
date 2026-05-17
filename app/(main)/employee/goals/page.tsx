@@ -90,7 +90,7 @@ export default function GoalsPage() {
         .from("goal_sheets")
         .insert({
           employee_id: user.id,
-          status: "draft",
+          status: "submitted",
         })
         .select()
         .single();
