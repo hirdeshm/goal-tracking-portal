@@ -109,17 +109,7 @@ export default function Sidebar() {
                 icon={<Target size={20} />}
               />
 
-            <NavItem
-              href="/manager/team"
-              title="Team"
-              icon={<Users size={20} />}
-            />
-
-            <NavItem
-              href="/manager/reports"
-              title="Reports"
-              icon={<FileText size={20} />}
-            />
+          
           </>
         )}
 
@@ -149,11 +139,7 @@ export default function Sidebar() {
               icon={<Shield size={20} />}
             />
 
-            <NavItem
-              href="/admin/settings"
-              title="Settings"
-              icon={<Settings size={20} />}
-            />
+            
           </>
         )}
 
