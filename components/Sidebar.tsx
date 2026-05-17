@@ -94,7 +94,8 @@ export default function Sidebar() {
             <NavItem
               href="/manager/home"
               title="Dashboard"
-              icon={<LayoutDashboard size={20} />}
+              icon={<LayoutDashboard size={20} />
+            }
             />
 
             <NavItem
@@ -102,6 +103,11 @@ export default function Sidebar() {
               title="Approvals"
               icon={<ClipboardCheck size={20} />}
             />
+            <NavItem
+                href="/manager/shared-goals"
+                title="Shared KPI"
+                icon={<Target size={20} />}
+              />
 
             <NavItem
               href="/manager/team"
@@ -130,6 +136,11 @@ export default function Sidebar() {
               href="/admin/users"
               title="Users"
               icon={<Users size={20} />}
+            />
+            <NavItem
+              href="/admin/shared-goals"
+              title="Shared KPI"
+              icon={<Target size={20} />}
             />
 
             <NavItem
