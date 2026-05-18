@@ -122,11 +122,7 @@ export default function Sidebar() {
               icon={<LayoutDashboard size={20} />}
             />
 
-            <NavItem
-              href="/admin/users"
-              title="Users"
-              icon={<Users size={20} />}
-            />
+          
             <NavItem
               href="/admin/shared-goals"
               title="Shared KPI"

@@ -85,7 +85,7 @@ export default function LandingPage() {
                 </Link>
 
                 <button className="border border-zinc-700 hover:border-green-500 px-8 py-4 rounded-2xl text-lg transition-all">
-                  Live Demo
+                  Login to Start
                 </button>
 
               </div>
